@@ -29,4 +29,12 @@ public class PrimeFactorizationTest {
 		list.add(3);
 		assertEquals(list, PrimeFactorization.factors(3));
 	}
+	
+	@Test
+	public void TestFour(){
+		ArrayList<Integer> list = new ArrayList<Integer>();
+		list.add(2);
+		list.add(2);
+		assertEquals(list, PrimeFactorization.factors(4));
+	}
 }
