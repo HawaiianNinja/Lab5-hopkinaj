@@ -62,4 +62,14 @@ public class PrimeFactorizationTest {
 		list.add(3);
 		assertEquals(list, PrimeFactorization.factors(9));
 	}
+	
+	@Test
+	public void TestHugeNumber(){
+		ArrayList<Integer> list = new ArrayList<Integer>();
+		list.add(5);
+		list.add(7);
+		list.add(7);
+		list.add(1327);
+		assertEquals(list, PrimeFactorization.factors(325115));
+	}
 }
