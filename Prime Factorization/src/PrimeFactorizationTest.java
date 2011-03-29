@@ -15,4 +15,11 @@ public class PrimeFactorizationTest {
 	public void TestOne(){
 		assertEquals(new ArrayList<Integer>(), PrimeFactorization.factors(1));
 	}
+	
+	@Test
+	public void TestTwo(){
+		ArrayList<Integer> list = new ArrayList<Integer>();
+		list.add(2);
+		assertEquals(list, PrimeFactorization.factors(2));
+	}
 }
