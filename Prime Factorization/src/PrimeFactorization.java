@@ -21,4 +21,8 @@ public class PrimeFactorization {
 		return list;
 	}
 
+	public static ArrayList<Integer> primeNumbers(int i) {
+		return new ArrayList<Integer>();
+	}
+
 }
