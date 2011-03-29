@@ -1,5 +1,9 @@
 import java.util.ArrayList;
 
+/* 
+ * Our solution for the prime factorization problem
+ */
+
 public class PrimeFactorization {
 
 	public static ArrayList<Integer> factors(int i) {
