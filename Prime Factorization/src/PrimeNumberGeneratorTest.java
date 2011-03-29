@@ -29,4 +29,12 @@ public class PrimeNumberGeneratorTest {
 		list.add(2);
 		assertEquals(list, PrimeFactorization.primeNumbers(3));		
 	}
+	
+	@Test
+	public void TestFour(){
+		ArrayList<Integer> list = new ArrayList<Integer>();
+		list.add(2);
+		list.add(3);
+		assertEquals(list, PrimeFactorization.primeNumbers(4));		
+	}
 }

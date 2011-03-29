@@ -10,10 +10,10 @@ public class PrimeFactorization {
 		ArrayList<Integer> list = new ArrayList<Integer>();
 		int x = 2;
 		for (; x <= i; x++) {
-			for (; i % x == 0; ) {
+			for (; i % x == 0;) {
 				if (i % x == 0) {
 					list.add(x);
-					i/=x;
+					i /= x;
 				}
 			}
 		}
@@ -23,8 +23,10 @@ public class PrimeFactorization {
 
 	public static ArrayList<Integer> primeNumbers(int i) {
 		ArrayList<Integer> list = new ArrayList<Integer>();
-		if(i > 2){
-			list.add(2);
+		for (int x = 2; x < i; x++) {
+			if (factors(x).size() == 1) {
+				list.add(x);
+			}
 		}
 		return list;
 	}
