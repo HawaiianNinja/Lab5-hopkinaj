@@ -17,4 +17,9 @@ public class PrimeNumberGeneratorTest {
 	public void TestOne(){
 		assertEquals(new ArrayList<Integer>(), PrimeFactorization.primeNumbers(1));
 	}
+	
+	@Test
+	public void TestTwo(){
+		assertEquals(new ArrayList<Integer>(), PrimeFactorization.primeNumbers(2));
+	}
 }
