@@ -37,4 +37,15 @@ public class PrimeNumberGeneratorTest {
 		list.add(3);
 		assertEquals(list, PrimeFactorization.primeNumbers(4));		
 	}
+	
+	@Test
+	public void TestThirteen(){
+		ArrayList<Integer> list = new ArrayList<Integer>();
+		list.add(2);
+		list.add(3);
+		list.add(5);
+		list.add(7);
+		list.add(11);
+		assertEquals(list, PrimeFactorization.primeNumbers(13));		
+	}
 }
