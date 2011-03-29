@@ -22,7 +22,11 @@ public class PrimeFactorization {
 	}
 
 	public static ArrayList<Integer> primeNumbers(int i) {
-		return new ArrayList<Integer>();
+		ArrayList<Integer> list = new ArrayList<Integer>();
+		if(i > 2){
+			list.add(2);
+		}
+		return list;
 	}
 
 }
